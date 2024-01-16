@@ -1,13 +1,11 @@
 package com.example.plotguide.fragment
 
-import androidx.fragment.app.Fragment
-
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.example.plotguide.R
-
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
@@ -17,9 +15,10 @@ import com.google.android.gms.maps.model.MarkerOptions
 class MapsFragment : Fragment() {
 
     private val callback = OnMapReadyCallback { googleMap ->
-        val sydney = LatLng(22.54111111, 88.33777778)
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Kolkata"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        val kolkata = LatLng(22.54111111, 88.33777778)
+        googleMap.addMarker(MarkerOptions().position(kolkata).title("Marker in Kolkata"))
+
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(kolkata,14f))
     }
 
     override fun onCreateView(

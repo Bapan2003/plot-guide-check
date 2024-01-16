@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/C:/Users/BAPAN%20MANDAL/AppData/Local/Android/Sdk/icons/material/materialiconsoutlined/directions_car_filled/outline_directions_car_filled_24.xml" />
+                                      <entry key="url" value="file:/C:/Users/BAPAN%20MANDAL/AppData/Local/Android/Sdk/icons/material/materialiconsoutlined/account_circle/outline_account_circle_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,7 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="outline_directions_car_filled_24" />
+                            <entry key="color" value="0c0c0c" />
+                            <entry key="outputName" value="outline_account_circle_24" />
                             <entry key="sourceFile" value="D:\PlotGuide" />
                           </map>
                         </option>
