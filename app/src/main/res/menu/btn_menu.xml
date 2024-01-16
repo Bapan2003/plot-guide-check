@@ -3,14 +3,18 @@
 
     <item android:id="@+id/mapsFragment"
         android:icon="@drawable/outline_location_on_24"
+        android:checkable="true"
         android:title="Explore"/>
     <item android:title="Go"
         android:id="@+id/goFragment"
+        android:checkable="true"
         android:icon="@drawable/outline_directions_car_filled_24"/>
     <item android:id="@+id/contributeFragment"
         android:title="Contribute"
+        android:checkable="true"
         android:icon="@drawable/baseline_add_circle_outline_24"/>
     <item android:id="@+id/savedFragment"
+        android:checkable="true"
         android:icon="@drawable/baseline_bookmark_border_24"
         android:title="Saved"/>
 
