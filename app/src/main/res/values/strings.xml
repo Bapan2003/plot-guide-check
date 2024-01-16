@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Plot Guide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="YOUR_API_KEY">AIzaSyCjcrfLH8cbBTreXQ6l_ZcvK4Y5sv9hxIk</string>
+</resources>
