@@ -6,4 +6,5 @@
     <color name="my_light_primary">#A8A7A7</color>
     <color name="colorPrimary">#9F9D9D</color>
     <color name="colorPrimaryDark">#838282</color>
+    <color name="cyan">#D6DDDC</color>
 </resources>

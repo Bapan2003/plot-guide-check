@@ -65,17 +65,17 @@
             />
 
     </LinearLayout>
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/_16sdp"
-        android:layout_marginEnd="@dimen/_16sdp"
-        android:padding="@dimen/_4sdp"
-        android:backgroundTint="@color/white"
-        android:src="@drawable/baseline_assistant_navigation_24"
-        app:layout_constraintBottom_toBottomOf="@+id/navHost"
-        app:layout_constraintEnd_toEndOf="parent" />
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/floatingActionBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="@dimen/_16sdp"-->
+<!--        android:layout_marginEnd="@dimen/_16sdp"-->
+<!--        android:padding="@dimen/_4sdp"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:src="@drawable/baseline_assistant_navigation_24"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/navHost"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/btmNav"
